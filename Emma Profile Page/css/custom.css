@@ -1,0 +1,100 @@
+header{
+  background-color: #d7bde2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-bottom:0;
+  font-size: 30px;
+  text-align: center;
+  z-index: 1;
+}
+
+.sTop{
+  background-color: #ebf5fb;
+  display: inline;
+  padding-top: 15%;
+  font-size: 2em;
+
+}
+
+.s1{
+  background-color: #99C6E9;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.subMenu {
+	height: 45px;
+	z-index: 1000;
+	width: 100%;
+	background: #d7bde2;
+}
+
+.subMenu a:hover {
+	background: #d6eaf8;
+}
+
+.s2 {
+  padding-top: 2%;
+  background-color: #ADD8E6;
+}
+
+.inner{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.wrap{
+  background-color: #ADD8E6;
+  padding-top: 10%;
+  padding-bottom: 0;
+}
+
+.s4 {
+  background-color: #ADD8E6;
+}
+
+#section5 {
+  text-align: center;
+}
+
+footer{
+text-align: center;
+background-color: #d7bde2;
+padding-bottom: 0;
+
+}
+
+@media only screen and (min-width: 460px) {
+  .subMenu{
+  height: 70px;
+
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+  .subMenu{
+  height: 45px;
+
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .subNavBtn{
+  height: 35px;
+
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+  .subMenu{
+  height: 45px;
+
+  }
+}
